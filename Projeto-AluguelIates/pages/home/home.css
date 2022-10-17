@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/* Elementos principais */
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 120%;
+}
+
+body{
+    background-color: #EBEBEB;
+}
+
+main, header{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+main{
+    background-color: white;
+    height: 115%;
+}
+
+footer{
+    background-color:  #EBEBEB;
+    height: 5%;
+}
+
+
+/* Classes criadas */
+.navbar-color {
+    background-color: #21272B;
+    height: 5%;
+}
+
+.p-brand-texto{
+    margin-bottom: 0%;
+}
+
+.secoes-header-color{
+    color: #FFFFFF;
+    font-size: 1.5em;
+    font-style: italic;
+    padding-top: 0.20%;
+    position: absolute;
+    margin-left: 0.3%;
+}
+/* Ids criados */
+#parte-introdutoria{
+    background-image: url(/imagens/barcoprincipal.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 60%;
+}
+
+
+#card-parte-introdutoria{
+    background-color: #21272B;
+    color: white;
+    width: 40%;
+    height: 28%;
+    opacity: 85%;
+    margin-top: 22%;
+    margin-left: 58%;
+    display:inline-block;
+}
+
+#secao-destino-header{
+    background-color: #1BB4E8;
+    margin-bottom: 2.5%;
+}
+
+#secao-nossa-frota-header{
+    background-color: #C6B07F;
+    margin-bottom: 2.5%;
+}
+
+#col-foto{
+    width: 25%;
+}
+
+#col-brand-texto{
+    margin-top: 3.8%;
+}
+
+#txt-luxo{
+    color:#1BB4E8;
+}
+
+#txt-aluguel{
+    color:#FFFFFF;
+}
+
+
