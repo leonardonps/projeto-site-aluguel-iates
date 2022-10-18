@@ -39,7 +39,7 @@ footer{
 
 .navbar-nav{
     border: chocolate solid;
-    display: block;
+    display: inline-block;
 }
 
 .nav-item{
@@ -60,6 +60,11 @@ footer{
     margin-left: 0.3%;
 }
 /* Ids criados */
+
+#navbarNav{
+    border: #EBEBEB solid;
+}
+
 #parte-introdutoria{
     border: black solid;
 } 
