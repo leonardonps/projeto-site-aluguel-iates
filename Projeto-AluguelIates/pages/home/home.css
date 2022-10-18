@@ -24,10 +24,27 @@ footer{
     border: blueviolet solid;
 }
 
-
 /* Classes criadas */
 .navbar-color {
     background-color: #21272B;
+}
+
+.navbar{
+    border: springgreen solid;
+}
+.navbar-brand{
+    border: chartreuse solid;
+    display: inline-block;
+}
+
+.navbar-nav{
+    border: chocolate solid;
+    display: block;
+}
+
+.nav-item{
+    border: turquoise solid;
+    display: inline-block;
 }
 
 .p-brand-texto{
