@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* Elementos principais */
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #EBEBEB;
+}
+
+main, header{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+main{
+    background-color: white;
+    /* border: blue solid; */
+}
+
+form{
+    border: yellow solid;
+    padding: 5%;
+}
+.form-group{
+    width: 60%;
+    margin-bottom: 1%;
+}
+
+
+.item-obrigatorio{
+    color: #ec0909;
+}

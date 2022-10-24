@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/imagens/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="contato.css">
+    <title>Luxo | Aluguel de iates</title>
+</head>
+<body>
+    <main>
+        <form>
+            <div class="form-group">
+              <label for="nome">Nome completo: <span class="item-obrigatorio">*</span></label>
+              <input type="text" class="form-control" id="nome" placeholder="Ex.: João da Silva">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail: <span class="item-obrigatorio">*</span></label>
+              <input type="email" class="form-control" id="email" placeholder="Ex.: joaodasilva@email.com">
+              <small id="email-aviso" class="form-text text-muted">Nunca compartilharemos seu e-mail com ninguém ;)</small>
+            </div>
+            <div class="form-group">
+                <label for="menu-contato">Escolha um motivo para seu contato: <span class="item-obrigatorio">*</span></label>
+                <select class="form-control" id="menu-contato">
+                    <option>Elogios e sugestões</option>
+                    <option>Dúvidas</option>
+                    <option>Reclamações</option>
+                    <option>Oportunidades para emprego</option>
+                    <option>Outros</option>
+                  </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </main>
+</body>
+</html>

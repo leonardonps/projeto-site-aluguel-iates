@@ -16,6 +16,7 @@ main, header{
 
 main{
     background-color: white;
+    padding-bottom: 2%;
     border: blue solid;
 }
 
@@ -29,22 +30,59 @@ footer{
     background-color: #21272B;
 }
 
-.navbar{
-    border: springgreen solid;
-}
+
 .navbar-brand{
     border: chartreuse solid;
     display: inline-block;
 }
 
 .navbar-nav{
-    border: chocolate solid;
+    /* border: chocolate solid; */
     display: inline-block;
 }
 
 .nav-item{
-    border: turquoise solid;
+    /* border: turquoise solid;  */
+    color:#1BB4E8;
     display: inline-block;
+    width: 173px;
+    height: 30px;
+    text-align: center;
+    margin: 0%;
+    border-right: #EBEBEB solid;
+    border-width: 0.1px;
+}
+.nav-ultimo-item{
+    /* border: turquoise solid;  */
+    color:#1BB4E8;
+    display: inline-block;
+    width: 173px;
+    height: 30px;
+    text-align: center;
+    margin: 0%;
+}
+
+
+.nav-link{
+    /* border: red solid; */
+    height: 30px;
+    color: white;
+    font-size: 0.9em;
+    padding: 0%;
+    padding-top: 4px;
+
+}
+
+.nav-link:hover{
+    color: #1BB4E8;
+}
+
+.link-ativado{
+    color: #1BB4E8;
+}
+
+.nav-link:link{
+    color: white;
 }
 
 .p-brand-texto{
@@ -62,7 +100,8 @@ footer{
 /* Ids criados */
 
 #navbarNav{
-    border: #EBEBEB solid;
+    /* border: #EBEBEB solid; */
+    margin-top: 2.5%;
 }
 
 #parte-introdutoria{
@@ -93,11 +132,19 @@ footer{
     border: black solid;
 }
 
+#secao-destino-conteudo{
+    text-align: justify;
+}
+
 #secao-nossa-frota-header{
     background-color: #C6B07F;
     margin-bottom: 2.5%;
     border: black solid;
 
+}
+
+#secao-nossa-frota-conteudo{
+    text-align: justify;
 }
 
 #col-foto{
