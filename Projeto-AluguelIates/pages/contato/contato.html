@@ -11,6 +11,7 @@
 </head>
 <body>
     <main>
+        <h1>Entre em contato com a gente!</h1>
         <form>
             <div class="form-group">
               <label for="nome">Nome completo: <span class="item-obrigatorio">*</span></label>
@@ -31,7 +32,15 @@
                     <option>Outros</option>
                   </select>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class = "form-group">
+                <label for="msg-texto">Digite abaixo a sua mensagem que você quer deixar para a gente: <span class="item-obrigatorio">*</span></label>
+                <textarea class="form-control" id="msg-texto" placeholder="Ex.: Olá, me chamo João da Silva. Preciso de informação sobre..."></textarea>
+            </div>
+
+            <div id="buttons-form">
+              <button type="submit" class="btn btn-primary">Enviar a mensagem</button>
+              <button type="reset" class="btn btn-danger">Limpar tudo</button>
+            </div>
         </form>
     </main>
 </body>

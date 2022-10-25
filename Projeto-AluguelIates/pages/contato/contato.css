@@ -21,14 +21,41 @@ main{
 
 form{
     border: yellow solid;
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
+
+textarea{
+    height: 100px;
+}
+
 .form-group{
-    width: 60%;
-    margin-bottom: 1%;
+    width: 65%;
+    margin-bottom: 1.25%;
 }
 
 
 .item-obrigatorio{
     color: #ec0909;
+}
+
+.btn-primary{
+    background-color: #1BB4E8;
+    color: white;
+    border: #1BB4E8 solid 1px;
+    --bs-btn-active-bg: #1BB4E8;
+    --bs-btn-active-border-color: #1BB4E8;
+    margin-right: 0.5%;
+}
+
+.btn-primary:hover{
+    background-color: #1a9ac5;
+    color: white;
+    border: #1BB4E8 solid 1px;
+}
+
+#buttons-form{
+    margin-top: 1%;
 }

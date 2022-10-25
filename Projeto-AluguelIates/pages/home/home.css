@@ -10,19 +10,25 @@ body{
 }
 
 main, header{
-    margin-left: 5%;
-    margin-right: 5%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    width: 100%;
+    border-left: #f2f2f2 solid 70px;
+    border-right: #f2f2f2 solid 70px;
+
 }
 
 main{
     background-color: white;
     padding-bottom: 2%;
-    border: blue solid;
 }
 
 footer{
     background-color:  #EBEBEB;
-    border: blueviolet solid;
+    border-left: #cdcbcb solid 70px;
+    border-right: #cdcbcb solid 70px;
+    height: 60px;
+
 }
 
 /* Classes criadas */
@@ -110,7 +116,7 @@ footer{
 
 #img-barco-principal{
     border: red solid;
-    /* position: relative; */
+    /* position: relative;  */
     width: 100%;
 }
 
@@ -162,5 +168,4 @@ footer{
 #txt-aluguel{
     color:#FFFFFF;
 }
-
 
