@@ -10,8 +10,8 @@ body{
 }
 
 main, header{
-    margin-left: 5%;
-    margin-right: 5%;
+    border-left: 5vw solid  #EBEBEB;
+    border-right: 5vw solid #EBEBEB;
 }
 
 main{
@@ -30,6 +30,7 @@ form{
 textarea{
     height: 100px;
 }
+
 
 .form-group{
     width: 65%;

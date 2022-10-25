@@ -10,12 +10,8 @@ body{
 }
 
 main, header{
-    /* margin-left: 5%;
-    margin-right: 5%; */
-    width: 100%;
-    border-left: #f2f2f2 solid 70px;
-    border-right: #f2f2f2 solid 70px;
-
+    border-left: 5vw solid  #EBEBEB;
+    border-right: 5vw solid #EBEBEB;
 }
 
 main{
@@ -25,44 +21,41 @@ main{
 
 footer{
     background-color:  #EBEBEB;
-    border-left: #cdcbcb solid 70px;
-    border-right: #cdcbcb solid 70px;
-    height: 60px;
+    border-left: 5vw solid #cbcfd3;
+    border-right: 5vw solid #cbcfd3; 
+    height: 10vh;
 
 }
 
 /* Classes criadas */
-.navbar-color {
-    background-color: #21272B;
-}
-
-
 .navbar-brand{
-    border: chartreuse solid;
+ /* border: chartreuse solid;  */
     display: inline-block;
 }
 
 .navbar-nav{
-    /* border: chocolate solid; */
+     /* border: chocolate solid;   */
+    margin-top: 3%;
     display: inline-block;
+    
 }
 
 .nav-item{
-    /* border: turquoise solid;  */
+     /* border: turquoise solid;   */
     color:#1BB4E8;
     display: inline-block;
-    width: 173px;
-    height: 30px;
+    width: 140px;
+    height: 20px;
     text-align: center;
     margin: 0%;
     border-right: #EBEBEB solid;
     border-width: 0.1px;
 }
 .nav-ultimo-item{
-    /* border: turquoise solid;  */
+     /* border: turquoise solid;   */
     color:#1BB4E8;
     display: inline-block;
-    width: 173px;
+    width: 125px;
     height: 30px;
     text-align: center;
     margin: 0%;
@@ -70,10 +63,10 @@ footer{
 
 
 .nav-link{
-    /* border: red solid; */
+     /* border: red solid;  */
     height: 30px;
     color: white;
-    font-size: 0.9em;
+    font-size: 0.72em;
     padding: 0%;
     padding-top: 4px;
 
@@ -103,20 +96,20 @@ footer{
     position: absolute;
     margin-left: 0.3%;
 }
-/* Ids criados */
 
+/* Ids criados */
 #navbarNav{
     /* border: #EBEBEB solid; */
     margin-top: 2.5%;
 }
 
-#parte-introdutoria{
+/* #parte-introdutoria{
     border: black solid;
-} 
+}  */
 
 #img-barco-principal{
-    border: red solid;
-    /* position: relative;  */
+    /* border: red solid; */
+    position: relative; 
     width: 100%;
 }
 
@@ -124,18 +117,27 @@ footer{
     background-color: #21272B;
     color: white;
     opacity: 85%;
-    border: tomato solid;
+    /* border: tomato solid; */
+    position: absolute;
+    width: 40%;
+    height: 35%;
+    top: 63%;
+    left: 52%;
 }
+
+/* #parte-principal{
+    border: yellow solid;
+} */
+
 
 #parte-principal{
-    border: yellow solid;
+    margin-top: 2%;
 }
-
 
 #secao-destino-header{
     background-color: #1BB4E8;
     margin-bottom: 2.5%;
-    border: black solid;
+    /* border: black solid; */
 }
 
 #secao-destino-conteudo{
@@ -145,7 +147,7 @@ footer{
 #secao-nossa-frota-header{
     background-color: #C6B07F;
     margin-bottom: 2.5%;
-    border: black solid;
+    /* border: black solid; */
 
 }
 
@@ -154,18 +156,56 @@ footer{
 }
 
 #col-foto{
-    width: 25%;
+    width: 20%;
 }
 
 #col-brand-texto{
-    margin-top: 3.8%;
+    margin-top: 3.5%;
+    margin-left: 5%;
 }
 
 #txt-luxo{
     color:#1BB4E8;
+    font-size: 0.8em;
 }
 
 #txt-aluguel{
     color:#FFFFFF;
+    font-size: 0.8em;
+
 }
 
+#card-parte-introdutoria-titulo{
+    padding-top: 5%;
+    padding-left: 3%;
+    font-size: 1.7em;
+    text-align: left;
+    font-style: italic;
+    /* border: #1BB4E8 solid; */
+}
+
+#card-parte-introdutoria-barco{
+    /* border: #C6B07F solid; */
+    margin-top: 80%;
+    margin-left: 50%;
+}
+
+#card-parte-introdutoria-telefone{
+    padding-top: 2%;
+    margin-right: 20%;
+    font-size: 1em;
+    text-align: justify;
+    font-style: italic;
+    /* border: #1BB4E8 solid; */
+}
+
+#telefone-destacado{
+    color: #C6B07F
+}
+
+
+#btn-toggler{
+    box-shadow: none;
+    background-color: #1BB4E8;
+    margin-right: 2%;
+}
