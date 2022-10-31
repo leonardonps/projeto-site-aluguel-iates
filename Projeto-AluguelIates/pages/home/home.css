@@ -27,7 +27,11 @@ footer{
 
 }
 
-/* Classes criadas */
+/* Fim - Elementos principais*/
+
+/* Classes modificadas ou criadas */
+
+/* [HEADER]*/
 .navbar-brand{
  /* border: chartreuse solid;  */
     display: inline-block;
@@ -44,32 +48,31 @@ footer{
      /* border: turquoise solid;   */
     color:#1BB4E8;
     display: inline-block;
-    width: 140px;
-    height: 20px;
+    width: 170px;
+    height: 30px;
     text-align: center;
     margin: 0%;
     border-right: #EBEBEB solid;
     border-width: 0.1px;
 }
+
 .nav-ultimo-item{
      /* border: turquoise solid;   */
     color:#1BB4E8;
     display: inline-block;
-    width: 125px;
+    width: 160px;
     height: 30px;
     text-align: center;
     margin: 0%;
 }
 
-
 .nav-link{
      /* border: red solid;  */
     height: 30px;
     color: white;
-    font-size: 0.72em;
+    font-size: 0.9em;
     padding: 0%;
     padding-top: 4px;
-
 }
 
 .nav-link:hover{
@@ -88,6 +91,9 @@ footer{
     margin-bottom: 0%;
 }
 
+/* Fim - [HEADER]*/
+
+/* [MAIN] Seções principais - Destino e Nossas Frotas*/
 .secoes-header-color{
     color: #FFFFFF;
     font-size: 1.5em;
@@ -96,16 +102,49 @@ footer{
     position: absolute;
     margin-left: 0.3%;
 }
+/* Fim - [MAIN] Seções principais - Destino e Nossas Frotas*/
 
 /* Ids criados */
+
+/*[HEADER]*/
 #navbarNav{
     /* border: #EBEBEB solid; */
     margin-top: 2.5%;
 }
 
-/* #parte-introdutoria{
-    border: black solid;
-}  */
+#btn-toggler{
+    box-shadow: none;
+    background-color: #1BB4E8;
+    margin-right: 2%;
+}
+
+#nav-item-aluguel{
+    width: 230px;
+}
+
+#col-header-brand-foto{
+    margin-top: 5.5%;
+    width: 20%;
+}
+
+#col-header-brand-texto{
+    margin-top: 3.5%;
+    margin-left: 5%;
+}
+
+#txt-luxo{
+    color:#1BB4E8;
+    font-size: 1.2em;
+}
+
+#txt-aluguel{
+    color:#FFFFFF;
+    font-size: 1em;
+
+}
+/* Fim - [HEADER]*/
+
+/* [MAIN] - Seção introdutória*/
 
 #img-barco-principal{
     /* border: red solid; */
@@ -117,62 +156,12 @@ footer{
     background-color: #21272B;
     color: white;
     opacity: 85%;
-    /* border: tomato solid; */
     position: absolute;
-    width: 40%;
+    width: 38%;
     height: 35%;
     top: 63%;
-    left: 52%;
-}
-
-/* #parte-principal{
-    border: yellow solid;
-} */
-
-
-#parte-principal{
-    margin-top: 2%;
-}
-
-#secao-destino-header{
-    background-color: #1BB4E8;
-    margin-bottom: 2.5%;
-    /* border: black solid; */
-}
-
-#secao-destino-conteudo{
-    text-align: justify;
-}
-
-#secao-nossa-frota-header{
-    background-color: #C6B07F;
-    margin-bottom: 2.5%;
-    /* border: black solid; */
-
-}
-
-#secao-nossa-frota-conteudo{
-    text-align: justify;
-}
-
-#col-foto{
-    width: 20%;
-}
-
-#col-brand-texto{
-    margin-top: 3.5%;
-    margin-left: 5%;
-}
-
-#txt-luxo{
-    color:#1BB4E8;
-    font-size: 0.8em;
-}
-
-#txt-aluguel{
-    color:#FFFFFF;
-    font-size: 0.8em;
-
+    left: 54%;
+    padding-left: 2%;
 }
 
 #card-parte-introdutoria-titulo{
@@ -181,6 +170,7 @@ footer{
     font-size: 1.7em;
     text-align: left;
     font-style: italic;
+    margin-bottom: 3.5%;
     /* border: #1BB4E8 solid; */
 }
 
@@ -193,19 +183,50 @@ footer{
 #card-parte-introdutoria-telefone{
     padding-top: 2%;
     margin-right: 20%;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: justify;
     font-style: italic;
-    /* border: #1BB4E8 solid; */
+    /* border: #1BB4E8 solid;  */
 }
 
 #telefone-destacado{
     color: #C6B07F
 }
 
+/* Fim - [MAIN] - Seção introdutória */
 
-#btn-toggler{
-    box-shadow: none;
+#parte-principal{
+    margin-top: 2%;
+}
+
+#secao-destino{
+    margin-bottom: 2%;
+}
+#secao-destino-header{
     background-color: #1BB4E8;
-    margin-right: 2%;
+    margin-bottom: 2.5%;
+    /* border: black solid; */
+}
+
+#secao-destino-conteudo{
+    text-align: justify;
+}
+
+#secao-destino-img{
+    width: 100%;
+}
+
+#secao-nossa-frota-header{
+    background-color: #C6B07F;
+    margin-bottom: 2.5%;
+    /* border: black solid; */
+
+}
+
+#secao-nossa-frota-header-logo{
+    margin: 0.55%;
+}
+
+#secao-nossa-frota-conteudo{
+    text-align: justify;
 }
