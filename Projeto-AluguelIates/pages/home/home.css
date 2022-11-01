@@ -176,7 +176,7 @@ footer{
 
 #card-parte-introdutoria-barco{
     /* border: #C6B07F solid; */
-    margin-top: 80%;
+    margin-top: 110%;
     margin-left: 50%;
 }
 
@@ -202,6 +202,7 @@ footer{
 #secao-destino{
     margin-bottom: 2%;
 }
+
 #secao-destino-header{
     background-color: #1BB4E8;
     margin-bottom: 2.5%;
@@ -224,9 +225,26 @@ footer{
 }
 
 #secao-nossa-frota-header-logo{
-    margin: 0.55%;
+    margin: 0.48%;
 }
 
 #secao-nossa-frota-conteudo{
     text-align: justify;
+}
+
+
+#imagens-secao-nossa-frota-conteudo{
+    width: 100%;
+    position: left;
+}
+
+.col{
+    height: 157px;
+    width: 100%;
+    border: 1px solid #1BB4E8;  
+}
+
+.width{
+    width: 100%;
+    height: 100%;
 }
