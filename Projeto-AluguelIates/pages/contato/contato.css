@@ -20,7 +20,7 @@ main{
 }
 
 form{
-    border: yellow solid;
+    /* border: yellow solid; */
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
@@ -141,6 +141,7 @@ footer{
 }
 
 
+/* [MAIN] */
 .form-group{
     width: 65%;
     margin-bottom: 1.25%;
@@ -170,6 +171,30 @@ footer{
 }
 
 
+.linha-horizontal{
+    background-color: #1BB4E8;
+    height: 2px;
+}
+
+
+#boas-vindas{
+    color: #21272B;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 2%;
+    margin-bottom: 1%;
+}
+
+#lh-depois-boas-vindas{
+    width: 150px;
+}
+
+
+/* [FOOTER]*/
+#footer-conteudo{
+    padding-top: 2%;
+}
+
 
 /* Responsividade */
 @media only screen and (max-width: 991px) {
@@ -191,6 +216,7 @@ footer{
        font-size: 1.25em;
        padding: 0%;
        padding-top: 4px;
+       width: calc()
     }
 
     .link-ativado{
@@ -211,178 +237,7 @@ footer{
         margin: 0%;
     }
 
-    #card-parte-introdutoria{
-        height: 30%;
-    }
-
-    #secao-nossa-frota{
-        margin-bottom: 5%;
-    }
-
-    #secao-destino{
-        margin-bottom: 5%;
-    }
-
-    #imagens-secao-nossa-frota-conteudo .col{
-        border: 1px solid aqua;
-    }
-
-}
-
-@media only screen and (min-width: 576px) and (max-width: 768px){
-    #img-barco-principal{
-        /* border: red solid; */
-        position: relative; 
-        width: 100%;
-    }
-
-    #card-parte-introdutoria{
-        background-color: #21272B;
-        color: white;
-        height: 20%;
-        width: 30%;
-        opacity: 85%;
-        position: absolute;
-        top: 250px;
-        left: 56%;
-        padding-left: 0%;
-        padding-right: 0%;
-        margin-bottom: 0%;
-    }
-
-    #card-parte-introdutoria-titulo{
-        /* border: 1px solid aqua; */
-        padding-top: 2%;
-        padding-left: 2%;
-        margin-right: 0%;
-        font-size: 14px;
-        font-weight: 500;
-        text-align: left;
-        font-style: italic;
-        margin-bottom: 1%;
-        /* border: #1BB4E8 solid; */
-    }
-
-    #card-parte-introdutoria-barco{
-        /* border: #C6B07F solid; */
-        /* border: 1px solid rgb(111, 0, 255); */
-        margin-top:30%;
-        margin-left: 60%;
-    }
-
-    #card-parte-introdutoria-telefone{
-        /* border: 1px solid rgb(255, 191, 0); */
-        padding-top: 0%;
-        padding-bottom: 2%;
-        margin-right: 2%;
-        font-size: 10px;
-        text-align: justify;
-        font-style: italic;
-    }
-}
-
-@media only screen and (min-width: 426px) and (max-width: 575px){
-    #img-barco-principal{
-        /* border: red solid; */
-        position: relative; 
-        width: 100%;
-        display: block;
-    }
-
-    #card-parte-introdutoria{
-        background-color: #21272B;
-        color: white;
-        opacity: 85%;
-        position: relative;
-        width: 100%;
-        top: 0%;
-        left: 0%;
-        padding-left: 0%;
-        padding-right: 4%;
-        margin-right: 0%;
-        margin-bottom: 2%;
-    }
-
-    #card-parte-introdutoria-titulo{
-        padding-top: 2%;
-        padding-left: 2%;
-        margin-right: 0%;
-        font-size: 26px;
-        font-weight: 500;
-        text-align: center;
-        font-style: italic;
-        margin-bottom: 1%;
-        /* border: #1BB4E8 solid; */
-    }
-
-    #card-parte-introdutoria-barco{
-        margin-top:30%;
-        margin-left: 40%;
-    }
-
-    #card-parte-introdutoria-telefone{
-        padding-top: 0%;
-        padding-bottom: 1.5%;
-        padding-right: 0%;
-        margin-left: 1%;
-        margin-right: 0%;
-        font-size: 20px;
-        text-align: justify;
-        font-style: italic;
-    } 
-
-}
-
-
-@media only screen and (max-width: 425px){
-    #img-barco-principal{
-        /* border: red solid; */
-        position: relative; 
-        width: 100%;
-        display: block;
-    }
-
-    #card-parte-introdutoria{
-        background-color: #21272B;
-        color: white;
-        opacity: 85%;
-        position: relative;
-        width: 100%;
-        top: 0%;
-        left: 0%;
-        padding-left: 0%;
-        padding-right: 0%;
-        margin-bottom: 2%;
-    }
-
-    #card-parte-introdutoria-titulo{
-        /* border: 1px solid aqua; */
-        padding-top: 2%;
-        padding-left: 2%;
-        margin-right: 0%;
-        font-size: 20.8px;
-        font-weight:500;
-        text-align: center;
-        font-style: italic;
-        margin-bottom: 1%;
-        /* border: #1BB4E8 solid; */
-    }
-
-    #card-parte-introdutoria-barco{
-        /* border: #C6B07F solid; */
-        /* border: 1px solid rgb(111, 0, 255); */
-        margin-top:30%;
-        margin-left: 60%;
-    }
-
-    #card-parte-introdutoria-telefone{
-        /* border: 1px solid rgb(255, 191, 0); */
-        padding-top: 0%;
-        margin-right: 2%;
-        font-size: 16px;
-        text-align: justify;
-        font-style: italic;
-    }
+    
 }
 
 @media only screen and (max-width: 309px) {
