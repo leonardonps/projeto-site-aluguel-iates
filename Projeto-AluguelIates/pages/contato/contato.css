@@ -31,12 +31,120 @@ textarea{
     height: 100px;
 }
 
+footer{
+    background-color:  #EBEBEB;
+    border-left: 5vw solid #cbcfd3;
+    border-right: 5vw solid #cbcfd3; 
+    height: 10vh;
+
+}
+
+/*[HEADER] Classes e IDs*/
+
+.bg-color{
+    background-color: #21272B;
+}
+
+.navbar-brand{
+ /* border: chartreuse solid;  */
+    display: inline-block;
+}
+
+.navbar-nav{
+     /* border: chocolate solid;   */
+    margin-top: 3%;
+    display: inline-block;
+}
+
+.nav-item{
+     /* border: turquoise solid;   */
+    color:#1BB4E8;
+    display: inline-block;
+    width: 125px;
+    height: 30px;
+    text-align: center;
+    margin: 0%;
+    border-right: #EBEBEB solid;
+    border-width: 0.1px;
+}
+
+.nav-link{
+     /* border: red solid;  */
+    height: 30px;
+    color: white;
+    font-size: 0.75em;
+    padding: 0%;
+    padding-top: 4px;
+}
+
+.nav-link:hover{
+    color: #1BB4E8;
+}
+
+.link-ativado{
+    color: #1BB4E8;
+}
+
+.nav-link:link{
+    color: white;
+}
+
+.p-brand-texto{
+    margin-bottom: 0%;
+}
+
+#navbarNav{
+    /* border: #EBEBEB solid;  */
+    margin-top: 2.5%;
+    padding-bottom: 1%;
+    width: 85%;
+}
+
+#btn-toggler{
+    box-shadow: none;
+    background-color: #1BB4E8;
+    margin-right: 2%;
+}
+
+#nav-item-aluguel{
+    width: 145px;
+}
+#nav-item-pagina-inicial{
+    width: 135px;
+}
+
+#nav-item-contato{
+    /* border: turquoise solid;   */
+    border:none;
+    width: 109px;
+}
+
+#col-header-brand-foto{
+    margin-top: 5.5%;
+    width: 20%;
+}
+
+#col-header-brand-texto{
+    margin-top: 3.5%;
+    margin-left: 5%;
+}
+
+#txt-luxo{
+    color:#1BB4E8;
+    font-size: 1.2em;
+}
+
+#txt-aluguel{
+    color:#FFFFFF;
+    font-size: 1em;
+
+}
+
 
 .form-group{
     width: 65%;
     margin-bottom: 1.25%;
 }
-
 
 .item-obrigatorio{
     color: #ec0909;
@@ -60,3 +168,237 @@ textarea{
 #buttons-form{
     margin-top: 1%;
 }
+
+
+
+/* Responsividade */
+@media only screen and (max-width: 991px) {
+    
+    .nav-item{
+    width: 100% !important;
+    height: 30px;
+    text-align: center;
+    margin: 0%;
+    border-right: none;
+    /* border-bottom: 1.5px #EBEBEB solid !important; */
+    /* border-width: 0.1px; */
+    }
+    
+    .nav-link{
+        /* border: red solid;  */
+       height: 30px;
+       color: white;
+       font-size: 1.25em;
+       padding: 0%;
+       padding-top: 4px;
+    }
+
+    .link-ativado{
+        color: #1BB4E8;
+    } 
+    
+    .navbar-nav{
+        width: 100%;
+        border-top: 2px solid #1BB4E8;
+        margin: 0%! important;
+        padding-top: 2%;
+    }
+
+}
+@media only screen and (max-width: 575px) {
+    header, main, footer{
+        border: none;
+        margin: 0%;
+    }
+
+    #card-parte-introdutoria{
+        height: 30%;
+    }
+
+    #secao-nossa-frota{
+        margin-bottom: 5%;
+    }
+
+    #secao-destino{
+        margin-bottom: 5%;
+    }
+
+    #imagens-secao-nossa-frota-conteudo .col{
+        border: 1px solid aqua;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    #img-barco-principal{
+        /* border: red solid; */
+        position: relative; 
+        width: 100%;
+    }
+
+    #card-parte-introdutoria{
+        background-color: #21272B;
+        color: white;
+        height: 20%;
+        width: 30%;
+        opacity: 85%;
+        position: absolute;
+        top: 250px;
+        left: 56%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-bottom: 0%;
+    }
+
+    #card-parte-introdutoria-titulo{
+        /* border: 1px solid aqua; */
+        padding-top: 2%;
+        padding-left: 2%;
+        margin-right: 0%;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        font-style: italic;
+        margin-bottom: 1%;
+        /* border: #1BB4E8 solid; */
+    }
+
+    #card-parte-introdutoria-barco{
+        /* border: #C6B07F solid; */
+        /* border: 1px solid rgb(111, 0, 255); */
+        margin-top:30%;
+        margin-left: 60%;
+    }
+
+    #card-parte-introdutoria-telefone{
+        /* border: 1px solid rgb(255, 191, 0); */
+        padding-top: 0%;
+        padding-bottom: 2%;
+        margin-right: 2%;
+        font-size: 10px;
+        text-align: justify;
+        font-style: italic;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 575px){
+    #img-barco-principal{
+        /* border: red solid; */
+        position: relative; 
+        width: 100%;
+        display: block;
+    }
+
+    #card-parte-introdutoria{
+        background-color: #21272B;
+        color: white;
+        opacity: 85%;
+        position: relative;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        padding-left: 0%;
+        padding-right: 4%;
+        margin-right: 0%;
+        margin-bottom: 2%;
+    }
+
+    #card-parte-introdutoria-titulo{
+        padding-top: 2%;
+        padding-left: 2%;
+        margin-right: 0%;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 1%;
+        /* border: #1BB4E8 solid; */
+    }
+
+    #card-parte-introdutoria-barco{
+        margin-top:30%;
+        margin-left: 40%;
+    }
+
+    #card-parte-introdutoria-telefone{
+        padding-top: 0%;
+        padding-bottom: 1.5%;
+        padding-right: 0%;
+        margin-left: 1%;
+        margin-right: 0%;
+        font-size: 20px;
+        text-align: justify;
+        font-style: italic;
+    } 
+
+}
+
+
+@media only screen and (max-width: 425px){
+    #img-barco-principal{
+        /* border: red solid; */
+        position: relative; 
+        width: 100%;
+        display: block;
+    }
+
+    #card-parte-introdutoria{
+        background-color: #21272B;
+        color: white;
+        opacity: 85%;
+        position: relative;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-bottom: 2%;
+    }
+
+    #card-parte-introdutoria-titulo{
+        /* border: 1px solid aqua; */
+        padding-top: 2%;
+        padding-left: 2%;
+        margin-right: 0%;
+        font-size: 20.8px;
+        font-weight:500;
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 1%;
+        /* border: #1BB4E8 solid; */
+    }
+
+    #card-parte-introdutoria-barco{
+        /* border: #C6B07F solid; */
+        /* border: 1px solid rgb(111, 0, 255); */
+        margin-top:30%;
+        margin-left: 60%;
+    }
+
+    #card-parte-introdutoria-telefone{
+        /* border: 1px solid rgb(255, 191, 0); */
+        padding-top: 0%;
+        margin-right: 2%;
+        font-size: 16px;
+        text-align: justify;
+        font-style: italic;
+    }
+}
+
+@media only screen and (max-width: 309px) {
+    #col-header-brand-foto{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 243px) { 
+    #btn-toggler{
+        box-shadow: none;
+        background-color: #1BB4E8;
+        margin-right: 35%;
+        margin-left: 35%;
+    }    
+}
+
+
+

@@ -10,8 +10,46 @@
     <title>Luxo | Aluguel de iates</title>
 </head>
 <body>
-    <main>
-        <h1>Entre em contato com a gente!</h1>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-color">
+      <a class="navbar-brand">
+        <div class="container">
+          <div class="row row-cols-2">
+            <div class="col" id="col-header-brand-foto"><img src="../../imagens/barco1.png" alt="Foto de um pequeno barco com vela"></div>
+            <div class="col" id="col-header-brand-texto">
+            <p class="p-brand-texto" id="txt-luxo"><i>Luxo</i></p>
+            <p class="p-brand-texto" id="txt-aluguel"><i>Aluguel de iates</i></p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="btn-toggler">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  d-lg-flex justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item" id="nav-item-pagina-inicial">
+            <a class="nav-link link-ativado" href="../../pages/home/home.html">PÁGINA INICIAL</a>
+          </li>
+          <li class="nav-item"id="nav-item-aluguel">
+            <a class="nav-link">ALUGUEL DE IATES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">DESTINOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">TRIPULAÇÃO</a>
+          </li>
+          <li class="nav-item" id="nav-item-contato">
+            <a class="nav-link" href="../../pages/contato/contato.html">CONTATO</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+        <h1>Entre em contato com a gente :)</h1>
+        <h2>Ficaremos felizes em te responder!</h2>
         <form>
             <div class="form-group">
               <label for="nome">Nome completo: <span class="item-obrigatorio">*</span></label>
@@ -42,6 +80,12 @@
               <button type="reset" class="btn btn-danger">Limpar tudo</button>
             </div>
         </form>
-    </main>
+  </main>
+  <footer> 
+        <div id="footer-conteudo">
+          © 2023 por Luxo - Aluguel de Iates | Você só encontra coisas boas, se combinar luxo e paixão.
+        </div>
+  </footer>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

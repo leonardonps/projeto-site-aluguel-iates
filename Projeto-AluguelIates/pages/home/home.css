@@ -27,11 +27,12 @@ footer{
 
 }
 
-/* Fim - Elementos principais*/
+/*[HEADER] Classes e IDs*/
 
-/* Classes modificadas ou criadas */
+.bg-color{
+    background-color: #21272B;
+}
 
-/* [HEADER]*/
 .navbar-brand{
  /* border: chartreuse solid;  */
     display: inline-block;
@@ -41,14 +42,13 @@ footer{
      /* border: chocolate solid;   */
     margin-top: 3%;
     display: inline-block;
-    
 }
 
 .nav-item{
      /* border: turquoise solid;   */
     color:#1BB4E8;
     display: inline-block;
-    width: 170px;
+    width: 125px;
     height: 30px;
     text-align: center;
     margin: 0%;
@@ -56,21 +56,11 @@ footer{
     border-width: 0.1px;
 }
 
-.nav-ultimo-item{
-     /* border: turquoise solid;   */
-    color:#1BB4E8;
-    display: inline-block;
-    width: 160px;
-    height: 30px;
-    text-align: center;
-    margin: 0%;
-}
-
 .nav-link{
      /* border: red solid;  */
     height: 30px;
     color: white;
-    font-size: 0.9em;
+    font-size: 0.75em;
     padding: 0%;
     padding-top: 4px;
 }
@@ -91,25 +81,11 @@ footer{
     margin-bottom: 0%;
 }
 
-/* Fim - [HEADER]*/
-
-/* [MAIN] Seções principais - Destino e Nossas Frotas*/
-.secoes-header-color{
-    color: #FFFFFF;
-    font-size: 1.5em;
-    font-style: italic;
-    padding-top: 0.20%;
-    position: absolute;
-    margin-left: 0.3%;
-}
-/* Fim - [MAIN] Seções principais - Destino e Nossas Frotas*/
-
-/* Ids criados */
-
-/*[HEADER]*/
 #navbarNav{
-    /* border: #EBEBEB solid; */
+    /* border: #EBEBEB solid;  */
     margin-top: 2.5%;
+    padding-bottom: 1%;
+    width: 85%;
 }
 
 #btn-toggler{
@@ -119,7 +95,16 @@ footer{
 }
 
 #nav-item-aluguel{
-    width: 230px;
+    width: 145px;
+}
+#nav-item-pagina-inicial{
+    width: 135px;
+}
+
+#nav-item-contato{
+    /* border: turquoise solid;   */
+    border:none;
+    width: 109px;
 }
 
 #col-header-brand-foto{
@@ -142,9 +127,8 @@ footer{
     font-size: 1em;
 
 }
-/* Fim - [HEADER]*/
 
-/* [MAIN] - Seção introdutória*/
+/* [MAIN] - Seção introdutória - Classes e IDs*/
 
 #img-barco-principal{
     /* border: red solid; */
@@ -158,8 +142,10 @@ footer{
     opacity: 85%;
     position: absolute;
     width: 38%;
-    height: 35%;
-    top: 63%;
+    height: 248px;
+    /* top: 63%; */
+    top: 57%;
+    /* left: 54%; */
     left: 54%;
     padding-left: 2%;
 }
@@ -183,17 +169,33 @@ footer{
 #card-parte-introdutoria-telefone{
     padding-top: 2%;
     margin-right: 20%;
-    font-size: 1.2em;
+    font-size: 1.21em;
     text-align: justify;
     font-style: italic;
-    /* border: #1BB4E8 solid;  */
 }
 
 #telefone-destacado{
-    color: #C6B07F
+    color: #C6B07F;
 }
 
-/* Fim - [MAIN] - Seção introdutória */
+/* [MAIN] Seções principais - Destino e Nossas Frotas - Classes e IDs*/
+
+.secoes-header-color{
+    color: #FFFFFF;
+    font-size: 1.5em;
+    font-style: italic;
+    padding-top: 0.20%;
+    position: absolute;
+    margin-left: 0.3%;
+}
+
+.secao-principal-conteudo-titulo{
+    margin-bottom: 2%;
+}
+
+.secao-principal-conteudo-paragrafo{
+    margin-bottom: 4%;
+}
 
 #parte-principal{
     margin-top: 2%;
@@ -205,7 +207,7 @@ footer{
 
 #secao-destino-header{
     background-color: #1BB4E8;
-    margin-bottom: 2.5%;
+    margin-bottom: 4%;
     /* border: black solid; */
 }
 
@@ -219,9 +221,7 @@ footer{
 
 #secao-nossa-frota-header{
     background-color: #C6B07F;
-    margin-bottom: 2.5%;
-    /* border: black solid; */
-
+    margin-bottom: 4%;
 }
 
 #secao-nossa-frota-header-logo{
@@ -232,19 +232,269 @@ footer{
     text-align: justify;
 }
 
-
 #imagens-secao-nossa-frota-conteudo{
-    width: 100%;
-    position: left;
+     width: 100%;  
 }
 
-.col{
-    height: 157px;
-    width: 100%;
-    border: 1px solid #1BB4E8;  
+#imagens-secao-nossa-frota-conteudo .col{
+    border: 1px solid rgb(255, 255, 255); 
+    padding: 0%;
+    margin: 0%;
 }
 
-.width{
-    width: 100%;
-    height: 100%;
+#imagens-snf-q1{
+    margin-bottom: 3%;
+    padding-right: 1%;
+}
+
+#imagens-snf-q2{
+  padding-left: 1%;
+  margin-bottom: 3%;
+
+}
+
+#imagens-snf-q3{
+    padding-right: 1%;
+}
+
+#imagens-snf-q4{
+    padding-left: 1%;
+}
+
+/* [FOOTER] Classes e IDs */
+#footer-conteudo{
+    padding-top: 2%;
+    padding-left: 25%;
+    font-size: 1em;
+    font-weight:lighter;
+}
+
+
+/* Responsividade */
+@media only screen and (max-width: 991px) {
+    
+    .nav-item{
+    width: 100% !important;
+    height: 30px;
+    text-align: center;
+    margin: 0%;
+    border-right: none;
+    /* border-bottom: 1.5px #EBEBEB solid !important; */
+    /* border-width: 0.1px; */
+    }
+    
+    .nav-link{
+        /* border: red solid;  */
+       height: 30px;
+       color: white;
+       font-size: 1.25em;
+       padding: 0%;
+       padding-top: 4px;
+    }
+
+    .link-ativado{
+        color: #1BB4E8;
+    } 
+    
+    .navbar-nav{
+        width: 100%;
+        border-top: 2px solid #1BB4E8;
+        margin: 0%! important;
+        padding-top: 2%;
+    }
+
+}
+@media only screen and (max-width: 575px) {
+    header, main, footer{
+        border: none;
+        margin: 0%;
+    }
+
+    #card-parte-introdutoria{
+        height: 30%;
+    }
+
+    #secao-nossa-frota{
+        margin-bottom: 5%;
+    }
+
+    #secao-destino{
+        margin-bottom: 5%;
+    }
+
+    #imagens-secao-nossa-frota-conteudo .col{
+        border: 1px solid aqua;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    #img-barco-principal{
+        /* border: red solid; */
+        position: relative; 
+        width: 100%;
+    }
+
+    #card-parte-introdutoria{
+        background-color: #21272B;
+        color: white;
+        height: 20%;
+        width: 30%;
+        opacity: 85%;
+        position: absolute;
+        top: 250px;
+        left: 56%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-bottom: 0%;
+    }
+
+    #card-parte-introdutoria-titulo{
+        /* border: 1px solid aqua; */
+        padding-top: 2%;
+        padding-left: 2%;
+        margin-right: 0%;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        font-style: italic;
+        margin-bottom: 1%;
+        /* border: #1BB4E8 solid; */
+    }
+
+    #card-parte-introdutoria-barco{
+        /* border: #C6B07F solid; */
+        /* border: 1px solid rgb(111, 0, 255); */
+        margin-top:30%;
+        margin-left: 60%;
+    }
+
+    #card-parte-introdutoria-telefone{
+        /* border: 1px solid rgb(255, 191, 0); */
+        padding-top: 0%;
+        padding-bottom: 2%;
+        margin-right: 2%;
+        font-size: 10px;
+        text-align: justify;
+        font-style: italic;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 575px){
+    #img-barco-principal{
+        /* border: red solid; */
+        position: relative; 
+        width: 100%;
+        display: block;
+    }
+
+    #card-parte-introdutoria{
+        background-color: #21272B;
+        color: white;
+        opacity: 85%;
+        position: relative;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        padding-left: 0%;
+        padding-right: 4%;
+        margin-right: 0%;
+        margin-bottom: 2%;
+    }
+
+    #card-parte-introdutoria-titulo{
+        padding-top: 2%;
+        padding-left: 2%;
+        margin-right: 0%;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 1%;
+        /* border: #1BB4E8 solid; */
+    }
+
+    #card-parte-introdutoria-barco{
+        margin-top:30%;
+        margin-left: 40%;
+    }
+
+    #card-parte-introdutoria-telefone{
+        padding-top: 0%;
+        padding-bottom: 1.5%;
+        padding-right: 0%;
+        margin-left: 1%;
+        margin-right: 0%;
+        font-size: 20px;
+        text-align: justify;
+        font-style: italic;
+    } 
+
+}
+
+
+@media only screen and (max-width: 425px){
+    #img-barco-principal{
+        /* border: red solid; */
+        position: relative; 
+        width: 100%;
+        display: block;
+    }
+
+    #card-parte-introdutoria{
+        background-color: #21272B;
+        color: white;
+        opacity: 85%;
+        position: relative;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-bottom: 2%;
+    }
+
+    #card-parte-introdutoria-titulo{
+        /* border: 1px solid aqua; */
+        padding-top: 2%;
+        padding-left: 2%;
+        margin-right: 0%;
+        font-size: 20.8px;
+        font-weight:500;
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 1%;
+        /* border: #1BB4E8 solid; */
+    }
+
+    #card-parte-introdutoria-barco{
+        /* border: #C6B07F solid; */
+        /* border: 1px solid rgb(111, 0, 255); */
+        margin-top:30%;
+        margin-left: 60%;
+    }
+
+    #card-parte-introdutoria-telefone{
+        /* border: 1px solid rgb(255, 191, 0); */
+        padding-top: 0%;
+        margin-right: 2%;
+        font-size: 16px;
+        text-align: justify;
+        font-style: italic;
+    }
+}
+
+@media only screen and (max-width: 309px) {
+    #col-header-brand-foto{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 243px) { 
+    #btn-toggler{
+        box-shadow: none;
+        background-color: #1BB4E8;
+        margin-right: 35%;
+        margin-left: 35%;
+    }    
 }
