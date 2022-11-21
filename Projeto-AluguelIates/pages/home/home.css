@@ -250,7 +250,6 @@ footer{
 #imagens-snf-q2{
   padding-left: 1%;
   margin-bottom: 3%;
-
 }
 
 #imagens-snf-q3{
@@ -264,10 +263,48 @@ footer{
 /* [FOOTER]*/
 #footer-conteudo{
     padding-top: 2%;
+    text-align: center;
 }
 
 
 /* Responsividade */
+
+@media only screen and (min-width: 1400px){   
+    #secao-destino-dentro-col{
+        justify-content: center;
+        float: right;
+        max-width: 546px !important;
+    }
+
+
+    #secao-nossa-frota-dentro-col{
+        justify-content: center;
+        float: left;
+        max-width: 546px !important;
+    } 
+}
+
+@media only screen and (min-width: 1327px){
+    #secao-destino-img{
+        width: 546px;
+        height: 270px;
+    }    
+
+    #div-secao-destino-img{
+        text-align: center;
+    }
+
+        
+    #imagens-snf-q1{
+       float: right;
+    }
+
+    #imagens-snf-q3{
+       float: right;
+    }
+
+}
+
 @media only screen and (max-width: 991px) {
     
     .nav-item{
@@ -301,6 +338,67 @@ footer{
     }
 
 }
+
+
+@media only screen and (min-width: 576px) and (max-width: 1023px){
+
+    /* #card-parte-introdutoria{
+        background-color: #21272B;
+        color: white;
+        height: 20%;
+        width: 100%;
+        opacity: 100%;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+    } */
+
+    #card-parte-introdutoria{
+        height: 25%;
+        width: 100%;
+        opacity: 100%;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 2%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+    }
+
+    #card-parte-introdutoria-titulo{
+        padding-top: 2%;
+        padding-left: 0%;
+        margin-right: 0%;
+        font-size: 19px;
+        font-weight: 500;
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 1%;
+    }
+
+    #card-parte-introdutoria-barco{
+        display: none;
+    }
+
+    #card-parte-introdutoria-telefone{
+        /* border: 1px solid rgb(255, 191, 0); */
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-right: 4%;
+        font-size: 15px;
+        text-align: center;
+        font-style: italic;
+    }
+}
+
 @media only screen and (max-width: 575px) {
     header, main, footer{
         border: none;
@@ -318,63 +416,6 @@ footer{
     #secao-destino{
         margin-bottom: 5%;
     }
-
-    #imagens-secao-nossa-frota-conteudo .col{
-        border: 1px solid aqua;
-    }
-
-}
-
-@media only screen and (min-width: 576px) and (max-width: 768px){
-    #img-barco-principal{
-        /* border: red solid; */
-        position: relative; 
-        width: 100%;
-    }
-
-    #card-parte-introdutoria{
-        background-color: #21272B;
-        color: white;
-        height: 20%;
-        width: 30%;
-        opacity: 85%;
-        position: absolute;
-        top: 250px;
-        left: 56%;
-        padding-left: 0%;
-        padding-right: 0%;
-        margin-bottom: 0%;
-    }
-
-    #card-parte-introdutoria-titulo{
-        /* border: 1px solid aqua; */
-        padding-top: 2%;
-        padding-left: 2%;
-        margin-right: 0%;
-        font-size: 14px;
-        font-weight: 500;
-        text-align: left;
-        font-style: italic;
-        margin-bottom: 1%;
-        /* border: #1BB4E8 solid; */
-    }
-
-    #card-parte-introdutoria-barco{
-        /* border: #C6B07F solid; */
-        /* border: 1px solid rgb(111, 0, 255); */
-        margin-top:30%;
-        margin-left: 60%;
-    }
-
-    #card-parte-introdutoria-telefone{
-        /* border: 1px solid rgb(255, 191, 0); */
-        padding-top: 0%;
-        padding-bottom: 2%;
-        margin-right: 2%;
-        font-size: 10px;
-        text-align: justify;
-        font-style: italic;
-    }
 }
 
 @media only screen and (min-width: 426px) and (max-width: 575px){
@@ -388,7 +429,7 @@ footer{
     #card-parte-introdutoria{
         background-color: #21272B;
         color: white;
-        opacity: 85%;
+        opacity: 100%;
         position: relative;
         width: 100%;
         top: 0%;
@@ -441,7 +482,7 @@ footer{
     #card-parte-introdutoria{
         background-color: #21272B;
         color: white;
-        opacity: 85%;
+        opacity: 100%;
         position: relative;
         width: 100%;
         top: 0%;

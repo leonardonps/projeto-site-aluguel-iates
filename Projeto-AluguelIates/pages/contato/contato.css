@@ -140,10 +140,10 @@ footer{
 
 }
 
-
 /* [MAIN] */
 .form-group{
     width: 65%;
+    margin-top: 2%;
     margin-bottom: 1.25%;
 }
 
@@ -166,11 +166,6 @@ footer{
     border: #1BB4E8 solid 1px;
 }
 
-#buttons-form{
-    margin-top: 1%;
-}
-
-
 .linha-horizontal{
     background-color: #1BB4E8;
     height: 2px;
@@ -185,18 +180,32 @@ footer{
     margin-bottom: 1%;
 }
 
-#lh-depois-boas-vindas{
-    width: 150px;
+#lh-contato-parte-introdutoria{
+    width: 15%;
+    margin-top: 0.5%;
+    position: absolute;
+    left: 42.5%;
 }
 
+#buttons-form{
+    margin-top: 2.25%;
+}
 
 /* [FOOTER]*/
 #footer-conteudo{
     padding-top: 2%;
+    text-align: center;
 }
 
 
 /* Responsividade */
+
+@media only screen and (max-width: 1200px){
+    .form-group{
+        width: 80%;
+    }
+}
+
 @media only screen and (max-width: 991px) {
     
     .nav-item{
@@ -230,14 +239,26 @@ footer{
         padding-top: 2%;
     }
 
+    .form-group{
+        width: 100%;
+    }
+
 }
 @media only screen and (max-width: 575px) {
     header, main, footer{
         border: none;
         margin: 0%;
     }
+}
 
+@media only screen and (max-width: 316px){
+    #buttons-form{
+        text-align: center;
+    }
     
+    #buttons-form-reset{
+        margin-top: 3%;
+    }
 }
 
 @media only screen and (max-width: 309px) {

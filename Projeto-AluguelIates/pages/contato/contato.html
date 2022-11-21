@@ -48,12 +48,14 @@
     </nav>
   </header>
   <main>
-      <div class="linha-horizontal"></div>
-        <div class="text-center" id="boas-vindas">
-          <h1>Entre em contato com a gente :)</h1>
-          <h2>Ficaremos felizes em te responder!</h2>
-        </div>
-        <div class="linha-horizontal align-middle" id="lh-depois-boas-vindas"></div>
+    <div class="linha-horizontal"></div>
+      <div id="contato-parte-introdutoria">
+          <div class="text-center" id="boas-vindas">
+            <h1>Entre em contato com a gente :)</h1>
+            <h2>Ficaremos felizes em te responder!</h2>
+          </div>
+          <div class="linha-horizontal" id="lh-contato-parte-introdutoria"></div>
+      </div>
         <form>
             <div class="form-group">
               <label for="nome">Nome completo: <span class="item-obrigatorio">*</span></label>
@@ -79,8 +81,8 @@
                 <textarea class="form-control" id="msg-texto" placeholder="Ex.: Olá, me chamo João da Silva. Preciso de informação sobre..."></textarea>
             </div>
             <div id="buttons-form">
-              <button type="submit" class="btn btn-primary">Enviar a mensagem</button>
-              <button type="reset" class="btn btn-danger">Limpar tudo</button>
+              <button type="submit" class="btn btn-primary" id="buttons-form-submit">Enviar a mensagem</button>
+              <button type="reset" class="btn btn-danger" id="buttons-form-reset">Limpar tudo</button>
             </div>
         </form>
   </main>
