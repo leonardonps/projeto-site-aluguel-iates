@@ -1,3 +1,10 @@
+/* 
+   UNIESP - Centro Universitário
+   Tecnologia para Front-End I e Projeto Integrador I
+   Autor: Leonardo do Nascimento Peixoto da Silva 
+   Matrícula: 2022211510033
+*/
+
 @charset "UTF-8";
 
 /* Elementos principais */
@@ -16,11 +23,9 @@ main, header{
 
 main{
     background-color: white;
-    /* border: blue solid; */
 }
 
 form{
-    /* border: yellow solid; */
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
@@ -40,24 +45,20 @@ footer{
 }
 
 /*[HEADER] Classes e IDs*/
-
 .bg-color{
     background-color: #21272B;
 }
 
 .navbar-brand{
- /* border: chartreuse solid;  */
     display: inline-block;
 }
 
 .navbar-nav{
-     /* border: chocolate solid;   */
     margin-top: 3%;
     display: inline-block;
 }
 
 .nav-item{
-     /* border: turquoise solid;   */
     color:#1BB4E8;
     display: inline-block;
     width: 125px;
@@ -69,7 +70,6 @@ footer{
 }
 
 .nav-link{
-     /* border: red solid;  */
     height: 30px;
     color: white;
     font-size: 0.75em;
@@ -94,7 +94,6 @@ footer{
 }
 
 #navbarNav{
-    /* border: #EBEBEB solid;  */
     margin-top: 2.5%;
     padding-bottom: 1%;
     width: 85%;
@@ -114,7 +113,6 @@ footer{
 }
 
 #nav-item-contato{
-    /* border: turquoise solid;   */
     border:none;
     width: 109px;
 }
@@ -199,7 +197,6 @@ footer{
 
 
 /* Responsividade */
-
 @media only screen and (max-width: 1200px){
     .form-group{
         width: 80%;
@@ -209,17 +206,14 @@ footer{
 @media only screen and (max-width: 991px) {
     
     .nav-item{
-    width: 100% !important;
-    height: 30px;
-    text-align: center;
-    margin: 0%;
-    border-right: none;
-    /* border-bottom: 1.5px #EBEBEB solid !important; */
-    /* border-width: 0.1px; */
+        width: 100% !important;
+        height: 30px;
+        text-align: center;
+        margin: 0%;
+        border-right: none;
     }
     
     .nav-link{
-        /* border: red solid;  */
        height: 30px;
        color: white;
        font-size: 1.25em;

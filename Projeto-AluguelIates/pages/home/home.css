@@ -1,3 +1,10 @@
+/* 
+   UNIESP - Centro Universitário
+   Tecnologia para Front-End I e Projeto Integrador I
+   Autor: Leonardo do Nascimento Peixoto da Silva 
+   Matrícula: 2022211510033
+*/
+
 @charset "UTF-8";
 
 /* Elementos principais */
@@ -28,24 +35,20 @@ footer{
 }
 
 /*[HEADER] Classes e IDs*/
-
 .bg-color{
     background-color: #21272B;
 }
 
 .navbar-brand{
- /* border: chartreuse solid;  */
     display: inline-block;
 }
 
 .navbar-nav{
-     /* border: chocolate solid;   */
     margin-top: 3%;
     display: inline-block;
 }
 
 .nav-item{
-     /* border: turquoise solid;   */
     color:#1BB4E8;
     display: inline-block;
     width: 125px;
@@ -57,7 +60,6 @@ footer{
 }
 
 .nav-link{
-     /* border: red solid;  */
     height: 30px;
     color: white;
     font-size: 0.75em;
@@ -82,7 +84,6 @@ footer{
 }
 
 #navbarNav{
-    /* border: #EBEBEB solid;  */
     margin-top: 2.5%;
     padding-bottom: 1%;
     width: 85%;
@@ -102,7 +103,6 @@ footer{
 }
 
 #nav-item-contato{
-    /* border: turquoise solid;   */
     border:none;
     width: 109px;
 }
@@ -129,9 +129,7 @@ footer{
 }
 
 /* [MAIN] - Seção introdutória - Classes e IDs*/
-
 #img-barco-principal{
-    /* border: red solid; */
     position: relative; 
     width: 100%;
 }
@@ -143,31 +141,28 @@ footer{
     position: absolute;
     width: 38%;
     height: 248px;
-    /* top: 63%; */
     top: 57%;
-    /* left: 54%; */
-    left: 54%;
+    left: 53%;
     padding-left: 2%;
 }
 
 #card-parte-introdutoria-titulo{
     padding-top: 5%;
     padding-left: 3%;
+    padding-bottom: 0%;
     font-size: 1.7em;
     text-align: left;
     font-style: italic;
     margin-bottom: 3.5%;
-    /* border: #1BB4E8 solid; */
 }
 
 #card-parte-introdutoria-barco{
-    /* border: #C6B07F solid; */
-    margin-top: 110%;
+    margin-top: 65%;
     margin-left: 50%;
 }
 
 #card-parte-introdutoria-telefone{
-    padding-top: 2%;
+    padding-top: 0%;
     margin-right: 20%;
     font-size: 1.21em;
     text-align: justify;
@@ -179,7 +174,6 @@ footer{
 }
 
 /* [MAIN] Seções principais - Destino e Nossas Frotas - Classes e IDs*/
-
 .secoes-header-color{
     color: #FFFFFF;
     font-size: 1.5em;
@@ -208,7 +202,6 @@ footer{
 #secao-destino-header{
     background-color: #1BB4E8;
     margin-bottom: 4%;
-    /* border: black solid; */
 }
 
 #secao-destino-conteudo{
@@ -233,7 +226,7 @@ footer{
 }
 
 #imagens-secao-nossa-frota-conteudo{
-     width: 100%;  
+    width: 100%;  
 }
 
 #imagens-secao-nossa-frota-conteudo .col{
@@ -266,8 +259,35 @@ footer{
     text-align: center;
 }
 
-
 /* Responsividade */
+@media only screen and (min-width: 2000px){
+    #card-parte-introdutoria{
+        height: 340px;
+        padding-left: 1%;
+    }
+
+    #card-parte-introdutoria-titulo{
+        font-size: 2.5em !important;
+        font-weight: bolder;
+
+    }
+
+    #card-parte-introdutoria-telefone{
+        margin-right: 10% !important;
+        padding-top: 0%;
+        padding-right: 0%;
+        font-size: 2em !important;
+    }
+}
+
+@media only screen and (min-width: 1441px){
+    #card-parte-introdutoria{
+        top: 65%;
+    }    
+    #card-parte-introdutoria-titulo{
+        font-size: 2em;
+    }
+}
 
 @media only screen and (min-width: 1400px){   
     #secao-destino-dentro-col{
@@ -275,7 +295,6 @@ footer{
         float: right;
         max-width: 546px !important;
     }
-
 
     #secao-nossa-frota-dentro-col{
         justify-content: center;
@@ -294,7 +313,6 @@ footer{
         text-align: center;
     }
 
-        
     #imagens-snf-q1{
        float: right;
     }
@@ -305,62 +323,31 @@ footer{
 
 }
 
-@media only screen and (min-width: 1441px){
-    #card-parte-introdutoria{
-        top: 65%;
-        left: 53%;
-    }    
-    #card-parte-introdutoria-titulo{
-        font-size: 2em;
-    }
-
-}
-
-
-@media only screen and (min-width: 2000px){
-    #card-parte-introdutoria{
-        height: 340px;
-    }
-
-    #card-parte-introdutoria-titulo{
-        font-size: 2.5em;
-    }
-    #card-parte-introdutoria-telefone{
-        margin-right: 10%;
-        padding-top: 0%;
-        padding-right: 0%;
-        font-size: 1.8em;
-    }
-}
-
 @media only screen and (min-width: 1301px) and (max-width: 1440.9px){
     #card-parte-introdutoria{
         top: 57%;
-        left: 53%;
     }    
+
     #card-parte-introdutoria-titulo{
         font-size: 2.2em;
     }
 }
-
 
 @media only screen and (min-width: 1201px) and (max-width: 1300px){
     #card-parte-introdutoria{
         top: 52%;
-        left: 53%;
-    }    
+    }   
+
     #card-parte-introdutoria-titulo{
         font-size: 2.2em;
     }
-
 }
-
 
 @media only screen and (min-width: 1101px) and (max-width: 1200px){
     #card-parte-introdutoria{
-        top: 47%;
-        left: 53%;
+        top: 45%;
     }    
+
     #card-parte-introdutoria-titulo{
         font-size: 1.91em;
     }
@@ -369,21 +356,16 @@ footer{
 @media only screen and (min-width: 1058px) and (max-width: 1100px){
     #card-parte-introdutoria{
         top: 40%;
-        left: 53%;
     } 
    
     #card-parte-introdutoria-titulo{
         font-size: 1.9em;
-    }
-    
+    }   
 }
-
-
 
 @media only screen and (min-width: 1024px) and (max-width: 1057.9px){
     #card-parte-introdutoria{
         top: 40%;
-        left: 53%;
     }
 
     #card-parte-introdutoria-titulo{
@@ -398,10 +380,7 @@ footer{
     }
 }
 
-
-
-@media only screen and (max-width: 991px) {
-    
+@media only screen and (max-width: 991px) {  
     .nav-item{
     width: 100% !important;
     height: 30px;
@@ -431,12 +410,9 @@ footer{
         margin: 0%! important;
         padding-top: 2%;
     }
-
 }
 
-
 @media only screen and (min-width: 576px) and (max-width: 1023.9px){
-
     #card-parte-introdutoria{
         height: 25%;
         width: 100%;
@@ -499,7 +475,6 @@ footer{
 
 @media only screen and (min-width: 425px) and (max-width: 575px){
     #img-barco-principal{
-        /* border: red solid; */
         position: relative; 
         width: 100%;
         display: block;
@@ -546,13 +521,11 @@ footer{
         text-align: justify;
         font-style: italic;
     } 
-
 }
 
 
 @media only screen and (max-width: 425px){
     #img-barco-principal{
-        /* border: red solid; */
         position: relative; 
         width: 100%;
         display: block;
@@ -572,7 +545,6 @@ footer{
     }
 
     #card-parte-introdutoria-titulo{
-        /* border: 1px solid aqua; */
         padding-top: 2%;
         padding-left: 2%;
         margin-right: 0%;
@@ -581,18 +553,14 @@ footer{
         text-align: center;
         font-style: italic;
         margin-bottom: 1%;
-        /* border: #1BB4E8 solid; */
     }
 
     #card-parte-introdutoria-barco{
-        /* border: #C6B07F solid; */
-        /* border: 1px solid rgb(111, 0, 255); */
         margin-top:30%;
         margin-left: 60%;
     }
 
     #card-parte-introdutoria-telefone{
-        /* border: 1px solid rgb(255, 191, 0); */
         padding-top: 0%;
         margin-right: 2%;
         font-size: 16px;
