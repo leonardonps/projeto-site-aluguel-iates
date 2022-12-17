@@ -17,20 +17,20 @@ Neste repositório, você pode encontrar o projeto final da disciplina Tecnologi
 
 <div align = "center">
 
-  ### Seção Home do site
+  ### Seção Home
   
-  ![Seção Home do site - parte de cima](https://github.com/leonardonps/projeto-site-aluguel-iates/blob/main/Projeto-AluguelIates/captura-telas-site/tela-home-1.png)
-  ![Seção Home do site - parte de baixo](https://github.com/leonardonps/projeto-site-aluguel-iates/blob/main/Projeto-AluguelIates/captura-telas-site/tela-home-2.png)
+  ![Seção Home - parte de cima](https://github.com/leonardonps/projeto-site-aluguel-iates/blob/main/Projeto-AluguelIates/captura-telas-site/tela-home-1.png)
+  ![Seção Home - parte de baixo](https://github.com/leonardonps/projeto-site-aluguel-iates/blob/main/Projeto-AluguelIates/captura-telas-site/tela-home-2.png)
   
-  ### Seção Contato do site
+  ### Seção Contato
   
-  ![Seção Contato do site](https://github.com/leonardonps/projeto-site-aluguel-iates/blob/main/Projeto-AluguelIates/captura-telas-site/tela-contato.png)
+  ![Seção Contato](https://github.com/leonardonps/projeto-site-aluguel-iates/blob/main/Projeto-AluguelIates/captura-telas-site/tela-contato.png)
   
   ### Demonstrando responsividade
   
-  ![Demonstrando a responsividade do site](https://github.com/leonardonps/projeto-site-aluguel-iates/blob/main/Projeto-AluguelIates/captura-telas-site/responsividade.png)
+  ![Demonstrando a responsividade](https://github.com/leonardonps/projeto-site-aluguel-iates/blob/main/Projeto-AluguelIates/captura-telas-site/responsividade.png)
   
-  ![Demonstrando a responsividade do site](https://github.com/leonardonps/projeto-site-aluguel-iates/blob/main/Projeto-AluguelIates/captura-telas-site/responsividade-2.png)
+  ![Demonstrando a responsividade](https://github.com/leonardonps/projeto-site-aluguel-iates/blob/main/Projeto-AluguelIates/captura-telas-site/responsividade-2.png)
 
 
 </div>
